@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Libertinus+Mono&display=swap');
+body{
+    margin-left: 100px;
+    margin-right: 100px;
+    font-family: "Libertinus Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo-section{
+    display: flex;
+    gap: 5px;
+    padding-top: 15px;
+}
+.logo-h3{
+    font-size: 20px;
+    align-items: center;
+}
+.LOGO-IMG
+{
+    width: 100px;
+}
+.nav{
+    list-style: none;
+    display: flex;
+    gap: 50px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.Hero-section{
+    text-align: center;
+}
+.Hero-sec{
+    align-items:center;
+    width: 500px;
+}
