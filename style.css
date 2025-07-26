@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Libertinus+Mono&display=swap');
 body{
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
     font-family: "Libertinus Mono", monospace;
     font-weight: 400;
     font-style: normal;
@@ -32,9 +32,84 @@ body{
     font-weight: bold;
 }
 .Hero-section{
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 100px;
+    margin-top: 50px;
+    background-image: url(images/WhatsApp\ Image\ 2025-07-11\ at\ 17.08.30_a9caf212.jpg);
+    background-repeat: no-repeat;
+    position: relative;
+    background-position: 44%;
+    background-size: contain;
+}
+.mac{
+    display: block;
+    width: 900px;
 }
 .Hero-sec{
-    align-items:center;
-    width: 500px;
+    width: 700px;
+    height: 600px;
+}
+.Buy-button{
+    background-color: #212529;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    padding:10px 15px;
+    margin-bottom: 10px;
+}
+.seeAll{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.card-1{
+    border:none;
+    box-shadow: 10px 10px 30px lightgrey;
+}
+.img-1{
+    height: 400px;
+    width: 425px;
+    padding: 15px;
+}
+.card{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+.card-details{
+    padding: 20px;
+}
+.card-price{
+    text-align: center;
+}
+.categories{
+    margin-top: 70px;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.products{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center ;
+    align-items: center;
+    gap: 30px;
+    margin-left: 50px;
+}
+.p1{
+    border: none;
+    box-shadow: 10px 10px 30px #212529;
+    border-radius: 10px;
+    padding: 40px 80px;
+    height: fit-content;
+    text-align: center;
+    font-weight: bold;
+}
+.perfume{
+
+    margin-top: 30px;
 }
